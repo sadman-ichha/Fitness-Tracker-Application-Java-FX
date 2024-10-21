@@ -29,7 +29,7 @@ public class Controller {
 
         try {
             WorkoutDAO.addWorkout(workoutType, duration, java.sql.Date.valueOf(workoutDate));
-            System.out.println("Workout logged successfully!");
+            System.out.println("Workout logged successfully  !");
             workoutTypeField.clear();
             durationField.clear();
             workoutDatePicker.setValue(null);
